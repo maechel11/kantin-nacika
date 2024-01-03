@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kantin Nacika</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" /> 
+    <link rel="stylesheet" href="css/tooplate-wave-cafe.css">
+
+</head>
+<body>
+  <div class="tm-container">
+    <div class="tm-row">
+      <!-- Site Header -->
+      <div class="tm-left">
+        <div class="tm-left-inner">
+          <div class="tm-site-header">
+            <i class="fas fa-coffee fa-3x tm-site-logo"></i>
+            <h1 class="tm-site-name">Kantin Nacika</h1>
+          </div>
+          <nav class="tm-site-nav">
+            <ul class="tm-site-nav-ul">
+              <li class="tm-page-nav-item">
+                <a href="#drink" class="tm-page-link active">
+                  <i class="fas fa-mug-hot tm-page-link-icon"></i>
+                  <span>Menu</span>
+                </a>
+              </li>
+              <li class="tm-page-nav-item">
+                <a href="#about" class="tm-page-link">
+                  <i class="fas fa-users tm-page-link-icon"></i>
+                  <span>Profile</span>
+                </a>
+              </li>
+              <li class="tm-page-nav-item">
+                <a href="#special" class="tm-page-link">
+                  <i class="fas fa-glass-martini tm-page-link-icon"></i>
+                  <span>Special Items</span>
+                </a>
+              </li>
+              <li class="tm-page-nav-item">
+                <a href="#contact" class="tm-page-link">
+                  <i class="fas fa-comments tm-page-link-icon"></i>
+                  <span>Lokasi</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>        
+      </div>
+      <div class="tm-right">
+        <main class="tm-main">
+          <div id="drink" class="tm-page-content">
+            <!-- Menu -->
+            <nav class="tm-black-bg tm-drinks-nav">
+              <ul>
+                <li>
+                  <a href="#" class="tm-tab-link active" data-id="cold">Makanan</a>
+                </li>
+                <li>
+                  <a href="#" class="tm-tab-link" data-id="hot">Minuman</a>
+                </li>
+                <li>
+                  <label for="search">Cari Menu:</label>
+                  <input type="text" id="search" oninput="searchFunction()" placeholder="Ketik menu disini">
+                  <nav class="tm-site-nav">
+                </li>
+              </ul>
+            </nav>
+
+            <div id="cold" class="tm-tab-content">
+              <div class="tm-list">
+                <div class="tm-list-item">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <img src="img/ayamgeprek.jpg" alt="Image" class="tm-list-item-img" align="left">
+                    <h3 class="tm-list-item-name">Ayam Geprek + Es teh<span class="tm-list-item-price">Rp. 15,000</span></h3>
+                    <p class="tm-list-item-description">Ayam Tepung dengan sambal pedas, kemudian di geprek hingga gepeng dan minuman es teh segar.</p>
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <div class="tm-black-bg tm-list-item-text">
+                    <img src="img/ayambakar.jpg" alt="Image" class="tm-list-item-img" align="left">
+                    <h3 class="tm-list-item-name">Ayam Bakar<span class="tm-list-item-price">Rp. 18,000</span></h3>
+                    <p class="tm-list-item-description">Ayam yang diolah dengan cara dipanggang atau dibakar setelah direndam dalam bumbu khusus. memiliki cita rasa yang kaya, dan tekstur yang lezat.</p>
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <div class="tm-black-bg tm-list-item-text">
+                    <img src="img/ayamricarica.jpg" alt="Image" class="tm-list-item-img" align="left">
+                    <h3 class="tm-list-item-name">Ayam rica-rica<span class="tm-list-item-price">Rp. 10,000</span></h3>
+                    <p class="tm-list-item-description">Ayam Rica-rica rasanya yang pedas dan perpaduan beragam rempah. Wangi daun jeruk dan serai yang digunakan menambah sedap aroma ayam rica-rica.</p>
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <div class="tm-black-bg tm-list-item-text">
+                    <img src="img/penyet.jpg" alt="Image" class="tm-list-item-img" align="left">
+                    <h3 class="tm-list-item-name">Ayam Penyet<span class="tm-list-item-price">Rp. 15,000</span></h3>
+                    <p class="tm-list-item-description">Ayam Penyet adalah masakan ayam bumbu kuning dengan kemudian ditambah sambal.</p>
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <div class="tm-black-bg tm-list-item-text">
+                    <img src="img/kwetiaugrng.jpg" alt="Image" class="tm-list-item-img" align="left">
+                    <h3 class="tm-list-item-name">Kwetiau Goreng<span class="tm-list-item-price">Rp. 12,000</span></h3>
+                    <p class="tm-list-item-description">Hidangan mi dari Tionghoa-Indonesia yang digoreng, terdiri dari mi dari tepung beras yang digoreng, yang memiliki tekstur kenyal.</p>
+                  </div>
+                </div> 
+                <div class="tm-list-item">          
+                  <div class="tm-black-bg tm-list-item-text">
+                    <img src="img/kwetiarebus.jpg" alt="Image" class="tm-list-item-img" align="left">
+                    <h3 class="tm-list-item-name">Kwetiau Rebus<span class="tm-list-item-price">Rp. 12,000</span></h3>
+                    <p class="tm-list-item-description">Hidangan mi dari Tionghoa-Indonesia yang direbus, terdiri dari mi dari tepung beras yang direbus, yang memiliki tekstur kenyal.</p>
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <div class="tm-black-bg tm-list-item-text">
+                    <img src="img/nasigoreng.jpg" alt="Image" class="tm-list-item-img" align="left">
+                    <h3 class="tm-list-item-name">Nasi Goreng<span class="tm-list-item-price">Rp. 10,000</span></h3>
+                    <p class="tm-list-item-description">Nasi yang diberi bumbu dan digoreng, makanan yang cocok untuk menghikangkan lapar.</p>
+                  </div>
+                </div> 
+                <div class="tm-list-item">          
+                  <div class="tm-black-bg tm-list-item-text">
+                    <img src="img/miegoreng.jpg" alt="Image" class="tm-list-item-img" align="left">
+                    <h3 class="tm-list-item-name">Mie Goreng<span class="tm-list-item-price">Rp. 10,000</span></h3>
+                    <p class="tm-list-item-description">Mie instan goreng yang nikmat dan dapat menghilanngkan rasa lapar.</p>
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <div class="tm-black-bg tm-list-item-text">
+                    <img src="img/mierebus.jpg" alt="Image" class="tm-list-item-img" align="left">
+                    <h3 class="tm-list-item-name">Mie Rebus<span class="tm-list-item-price">Rp. 10,000</span></h3>
+                    <p class="tm-list-item-description">Mie instan rebus yang nikmat dan dapat menghilanngkan rasa lapar.</p>
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <div class="tm-black-bg tm-list-item-text">
+                    <img src="img/miegoreng.jpg" alt="Image" class="tm-list-item-img" align="left">
+                    <h3 class="tm-list-item-name">Mie Gila Goreng<span class="tm-list-item-price">Rp. 12,000</span></h3>
+                    <p class="tm-list-item-description">Mie instan goreng dengan tambahan toping dan bumbu yang pedas.</p>
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <div class="tm-black-bg tm-list-item-text">
+                    <img src="img/mierebus.jpg" alt="Image" class="tm-list-item-img" align="left">
+                    <h3 class="tm-list-item-name">Mie Gila Rebus<span class="tm-list-item-price">Rp. 12,000</span></h3>
+                    <p class="tm-list-item-description">Mie instan Rebus dengan tambahan toping dan bumbu yang pedas.</p>
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <div class="tm-black-bg tm-list-item-text">
+                    <img src="img/siomay.jpg" alt="Image" class="tm-list-item-img" align="left">
+                    <h3 class="tm-list-item-name">Siomay<span class="tm-list-item-price">Rp. 10,000</span></h3>
+                    <p class="tm-list-item-description">Olahan daging ikan yang lembut dan bumbu-bumbu yang kaya rasa. Disajikan dengan saus kacang yang khas.</p>
+                  </div>
+                </div> 
+                <div class="tm-list-item">          
+                  <div class="tm-black-bg tm-list-item-text">
+                    <img src="img/pecel lele.jpg" alt="Image" class="tm-list-item-img" align="left">
+                    <h3 class="tm-list-item-name">Pecel Lele + sayur asem<span class="tm-list-item-price">Rp. 13,000</span></h3>
+                    <p class="tm-list-item-description">Lele goreng dengan sambal pedas yang nikmat dengan penambahan sayur asem.</p>
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <div class="tm-black-bg tm-list-item-text">
+                    <img src="img/basreng.jpg" alt="Image" class="tm-list-item-img" align="left">
+                    <h3 class="tm-list-item-name">Basreng Dadakan<span class="tm-list-item-price">Rp. 5,000</span></h3>
+                    <p class="tm-list-item-description">Bakso yang digoreng dadakan sehingga kenikmatannya tetap terjaga.</p>
+                  </div>
+                </div>                                              
+              </div>
+            </div> 
+
+            <div id="hot" class="tm-tab-content">
+              <div class="tm-list">
+              
+                <div class="tm-list-item">          
+                  <div class="tm-black-bg tm-list-item-text">                    
+                  <img src="img/esteh.jpg" alt="Image" class="tm-list-item-img" align="left">
+                    <h3 class="tm-list-item-name">ES teh manis<span class="tm-list-item-price">Rp. 3,000</span></h3>
+                    <p class="tm-list-item-description">Paduan antara Teh manis yang nikmat dengan ES yang dingin.</p>              
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <div class="tm-black-bg tm-list-item-text ">
+                    <img src="img/sisri.jpg" alt="Image" class="tm-list-item-img" align="left">
+                    <h3 class="tm-list-item-name">ES sisri semua rasa<span class="tm-list-item-price">Rp. 2,000</span></h3>
+                    <p class="tm-list-item-description">Varian aneka rasa Teh sisri ada, dan diseduh langsung disini. </p>
+                  </div>
+                </div> 
+                <div class="tm-list-item">          
+                  <div class="tm-black-bg tm-list-item-text">
+                    <img src="img/marimas.jpg" alt="Image" class="tm-list-item-img" align="left">
+                    <h3 class="tm-list-item-name">Es marimas semua rasa<span class="tm-list-item-price">Rp. 2,000</span></h3>
+                    <p class="tm-list-item-description">Varian aneka rasa Marimas ada, dan diseduh langsung disini.</p>                    
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <div class="tm-black-bg tm-list-item-text">
+                    <img src="img/teajus.jpg" alt="Image" class="tm-list-item-img" align="left">
+                    <h3 class="tm-list-item-name">ES tea jus semua rasa<span class="tm-list-item-price">Rp. 2,000</span></h3>
+                    <p class="tm-list-item-description">Tersedia 5 varian rasa : Gula batu, Apel, Melati, Lemon, Madu.
+                    </p>              
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <div class="tm-black-bg tm-list-item-text">
+                    <img src="img/frenta.jpg" alt="Image" class="tm-list-item-img" align="left">
+                    <h3 class="tm-list-item-name">ES Frenta semua rasa<span class="tm-list-item-price">Rp. 2,000</span></h3>
+                    <p class="tm-list-item-description">Varian aneka rasa Frenta, ada dan diseduh langsung disini.</p>              
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <div class="tm-black-bg tm-list-item-text">
+                    <img src="img/cappucino.jpg" alt="Image" class="tm-list-item-img" align="left">
+                    <h3 class="tm-list-item-name">Es Cappucino<span class="tm-list-item-price">Rp. 5,000</span></h3>
+                    <p class="tm-list-item-description">Perpaduan Antara Es capucino yang enak dan Cincau yang kenyal.</p>
+                  </div>
+                </div> 
+                <div class="tm-list-item">          
+                  <div class="tm-black-bg tm-list-item-text">
+                    <img src="img/beng.jpg" alt="Image" class="tm-list-item-img" align="left">
+                    <h3 class="tm-list-item-name">ES Beng-Beng Drink<span class="tm-list-item-price">Rp. 5,000</span></h3>
+                    <p class="tm-list-item-description">Kenikmatan Beng-Beng dingin yang dapat menghilangkan dahaga ketika panas.</p>
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <div class="tm-black-bg tm-list-item-text">
+                    <img src="img/tehtarik.jpe" alt="Image" class="tm-list-item-img" align="left">
+                    <h3 class="tm-list-item-name">ES Teh Tarik<span class="tm-list-item-price">Rp. 5,000</span></h3>
+                    <p class="tm-list-item-description"> minuman menyegarkan dengan perpaduan teh berkualitas dan kelembutan susu.</p>
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <div class="tm-black-bg tm-list-item-text">
+                    <img src="img/nutrisari.jpg" alt="Image" class="tm-list-item-img" align="left">
+                    <h3 class="tm-list-item-name">ES Nutrisari Semua rasa<span class="tm-list-item-price">Rp. 4,000</span></h3>
+                    <p class="tm-list-item-description">Varian aneka rasa Nutrisari, ada dan diseduh langsung disini</p>
+                  </div>
+                </div>  
+                <div class="tm-list-item">          
+                  <div class="tm-black-bg tm-list-item-text">
+                    <img src="img/cokolatos.jpg" alt="Image" class="tm-list-item-img" align="left">
+                    <h3 class="tm-list-item-name">ES Chocolatos<span class="tm-list-item-price">Rp. 5,000</span></h3>
+                    <p class="tm-list-item-description"> sensasi dingin yang memikat menyajikan kenikmatan lembut yang memanjakan lidah.</p>
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <div class="tm-black-bg tm-list-item-text">
+                    <img src="img/milo.jpg" alt="Image" class="tm-list-item-img" align="left">
+                    <h3 class="tm-list-item-name">ES Milo<span class="tm-list-item-price">Rp. 5,000</span></h3>
+                    <p class="tm-list-item-description">minuman energi ikonik dengan cita rasa cokelat dan malt yang lezat, memberikan kelebihan stamina dan kelezatan dalam setiap tegukan.</p>
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <div class="tm-black-bg tm-list-item-text">
+                    <img src="img/escampur.jpg" alt="Image" class="tm-list-item-img" align="left">
+                    <h3 class="tm-list-item-name">ES campur<span class="tm-list-item-price">Rp. 5,000</span></h3>
+                    <p class="tm-list-item-description">Campuran buah buah an yang segar ditambah sirup yang manis.</p>
+                  </div>
+                </div> 
+                <div class="tm-list-item">          
+                  <div class="tm-black-bg tm-list-item-text">
+                    <img src="img/esjeruk.jpg" alt="Image" class="tm-list-item-img" align="left">
+                    <h3 class="tm-list-item-name">ES Jeruk<span class="tm-list-item-price">Rp. 5,000</span></h3>
+                    <p class="tm-list-item-description">Perpaduan Es batu dan perasaan Jeruk, menciptakan kesegaran ketika diminum hari panas.</p>
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <div class="tm-black-bg tm-list-item-text">
+                    <img src="img/luwakw.jpg" alt="Image" class="tm-list-item-img" align="left">
+                    <h3 class="tm-list-item-name">ES Luwak White Coffe<span class="tm-list-item-price">Rp. 5,000</span></h3>
+                    <p class="tm-list-item-description">Perpaduan Luwak White Coffe dan Es batu, menciptakan sensasi dingin dan nikmat.</p>
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <div class="tm-black-bg tm-list-item-text">
+                    <img src="img/kopi.webp" alt="Image" class="tm-list-item-img" align="left">
+                    <h3 class="tm-list-item-name">Kopi Hitam<span class="tm-list-item-price">Rp. 4,000</span></h3>
+                    <p class="tm-list-item-description"> kekuatan dan keaslian biji kopi terbaik dalam setiap tegukan, memberikan pengalaman klasik penuh cita rasa bagi pecinta kopi sejati.</p>
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <div class="tm-black-bg tm-list-item-text">
+                    <img src="img/susu.webp" alt="Image" class="tm-list-item-img" align="left">
+                    <h3 class="tm-list-item-name">ES Susu (Coklat / Putih)<span class="tm-list-item-price">Rp. 5,000</span></h3>
+                    <p class="tm-list-item-description">Susu kental manis yang enak dan tambahan es batu yang dingin.</p>
+                  </div>
+                </div> 
+                <div class="tm-list-item">          
+                  <div class="tm-black-bg tm-list-item-text">
+                    <img src="img/air.webp" alt="Image" class="tm-list-item-img" align="left">
+                    <h3 class="tm-list-item-name">Air mineral Botol<span class="tm-list-item-price">Rp. 3,000</span></h3>
+                    <p class="tm-list-item-description">sumber kehidratan alami yang menyegarkan dengan kemurnian dan kesegaran, memberikan hidrasi optimal untuk menjaga keseimbangan tubuh Anda.</p>
+                  </div>
+                </div> 
+                <div class="tm-list-item">          
+                  <div class="tm-black-bg tm-list-item-text">
+                    <img src="img/josu.jpg" alt="Image" class="tm-list-item-img" align="left">
+                    <h3 class="tm-list-item-name">ES Josu (Extrajos susu)<span class="tm-list-item-price">Rp. 5,000</span></h3>
+                    <p class="tm-list-item-description">Campuran Ektrajos Dan susu yang segar, Mengembalikan Stamina Ketika Lelah Bekerja.</p>
+                  </div>
+                </div>     
+                <div class="tm-list-item">          
+                  <div class="tm-black-bg tm-list-item-text">
+                    <img src="img/goodday.jpg" alt="Image" class="tm-list-item-img" align="left">
+                    <h3 class="tm-list-item-name">ES Good Day<span class="tm-list-item-price">Rp. 5,000</span></h3>
+                    <p class="tm-list-item-description">kopi instan pilihan dengan aroma menggoda dan cita rasa kaya, menyediakan pengalaman menyegarkan yang menyempurnakan setiap momen Anda.</p>
+                  </div>
+                </div> 
+                
+              </div>
+            </div>
+          </div>
+
+          <!-- About Us Page -->
+          <div id="about" class="tm-page-content">
+            <div class="tm-black-bg tm-mb-20 tm-about-box-1">              
+              <h2 class="tm-text-primary tm-about-header">Tentang Kantin Nacika</h2>
+              <div class="tm-list-item tm-list-item-2">                
+                <img src="img/kantinnacika.jpeg" alt="Image" class="tm-list-item-img tm-list-item-img-big">
+                <div class="tm-list-item-text-2">
+                  <p>
+                    Kantin Nacika adalah sebuah kantin yang strategis terletak di sebelah Universitas Teknokrat Indonesia. </p>
+                  <p>menjadi tempat pilihan bagi mahasiswa, dosen, dan pengunjung untuk memuaskan selera mereka sambil 
+                    menikmati Makanan Murah dan juga lezat</p>
+                </div>                
+              </div>
+            </div>
+            <div class="tm-black-bg tm-mb-20 tm-about-box-2">              
+              <div class="tm-list-item tm-list-item-2">                
+                <div class="tm-list-item-text-2">
+                  <h2 class="tm-text-primary">Jam Operasional</h2>
+                  <p>Kantin Nacika Buka Pukul 08:00 - 19:00.
+                    Ketika Hari Jum'at kita menggratiskan minuma es teh bagi siapapun yang memesan makanan
+                  </p>                  
+                </div>                
+                <img src="img/KantinNacika2.jpeg" alt="Image" class="tm-list-item-img tm-list-item-img-big tm-img-right">                
+              </div>
+              <p>Jadi, mari merasakan kelezatan yang nikamat di Kantin Nacika, di mana setiap kunjungan adalah perjalanan rasa yang memuaskan.
+              </p>
+            </div>
+          </div>
+          <!-- end About Us Page -->
+
+          <!-- Special Items Page -->
+          <div id="special" class="tm-page-content">
+            <div class="tm-special-items">
+              <div class="tm-black-bg tm-special-item">
+                <img src="img/ayamgeprek.jpg" alt="Image" height="160px" width="320px">
+                <div class="tm-special-item-description">
+                  <h2 class="tm-text-primary tm-special-item-title">Ayam geprek + es teh</h2>
+                  <p class="tm-special-item-text">Ayam Tepung dengan sambal pedas, kemudian di geprek hingga gepeng dan minuman es teh segar</p>  
+                </div>
+              </div>
+              <div class="tm-black-bg tm-special-item">
+                <img src="img/ayambakar.jpg" alt="Image" height="160px" width="320px">
+                <div class="tm-special-item-description">
+                  <h2 class="tm-text-primary tm-special-item-title">Ayam Bakar</h2>
+                  <p class="tm-special-item-text">Ayam yang diolah dengan cara dipanggang atau dibakar setelah direndam dalam bumbu khusus. memiliki cita rasa yang kaya, dan tekstur yang lezat.</p>  
+                </div>
+              </div>
+              <div class="tm-black-bg tm-special-item">
+                <img src="img/esteh.jpg" alt="Image" height="160px" width="320px">
+                <div class="tm-special-item-description">
+                  <h2 class="tm-text-primary tm-special-item-title">Es teh manis</h2>
+                  <p class="tm-special-item-text">Es teh manis yang segar dan enak.</p>  
+                </div>
+              </div>
+              <div class="tm-black-bg tm-special-item">
+                <img src="img/esjeruk.jpg" alt="Image" height="160px" width="320px">
+                <div class="tm-special-item-description">
+                  <h2 class="tm-text-primary tm-special-item-title">ES Jeruk</h2>
+                  <p class="tm-special-item-text">Perpaduan Es batu dan persaan Jeruk yang segar.</p>  
+                </div>
+              </div>      
+              </div>                      
+            </div>            
+          </div>
+          <!-- end Special Items Page -->
+
+          <!-- Contact Page -->
+          <div id="contact" class="tm-page-content">
+            <div class="tm-black-bg tm-contact-text-container ">
+              <h2 class="tm-text-primary">Alamat</h2>
+              <p>Kantin Nacika Terletak Di <b>Jl. ZA. Pagar Alam No.17b, Labuhan Ratu, Kec. Kedaton, Kota
+                Bandar Lampung, Lampung
+              </b> yang mana berada di Sebelah Kiri Universitas Teknokrat Indonesia</p>
+            </div>
+            
+            <div  class="tm-black-bg tm-contact-form-container">
+              <h2 class="tm-text-primary" align="center">MAPS</h2>
+              <div class="image-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d339.76453644765354!2d105.25769949738662!3d-5.382296246797269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40dadc7fc6fd55%3A0x545f4c4238cf5ea9!2sKantin%20Nacika!5e0!3m2!1sen!2sid!4v1703757685213!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div >
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- end Contact Page -->
+        </main>
+      </div>    
+    </div>
+  </div>
+    
+  <!-- Background video -->
+  <div class="tm-video-wrapper">
+      <i id="tm-video-control-button" class="fas fa-pause"></i>
+      <video autoplay muted loop id="tm-video">
+          <source src="video/bg.mp4" type="video/mp4">
+      </video>
+  </div>
+
+  <script src="js/jquery-3.4.1.min.js"></script>    
+  <script>
+
+    function setVideoSize() {
+      const vidWidth = 1920;
+      const vidHeight = 1080;
+      const windowWidth = window.innerWidth;
+      const windowHeight = window.innerHeight;
+      const tempVidWidth = windowHeight * vidWidth / vidHeight;
+      const tempVidHeight = windowWidth * vidHeight / vidWidth;
+      const newVidWidth = tempVidWidth > windowWidth ? tempVidWidth : windowWidth;
+      const newVidHeight = tempVidHeight > windowHeight ? tempVidHeight : windowHeight;
+      const tmVideo = $('#tm-video');
+
+      tmVideo.css('width', newVidWidth);
+      tmVideo.css('height', newVidHeight);
+    }
+
+    function openTab(evt, id) {
+      $('.tm-tab-content').hide();
+      $('#' + id).show();
+      $('.tm-tab-link').removeClass('active');
+      $(evt.currentTarget).addClass('active');
+    }    
+
+    function initPage() {
+      let pageId = location.hash;
+
+      if(pageId) {
+        highlightMenu($(`.tm-page-link[href^="${pageId}"]`)); 
+        showPage($(pageId));
+      }
+      else {
+        pageId = $('.tm-page-link.active').attr('href');
+        showPage($(pageId));
+      }
+    }
+
+    function highlightMenu(menuItem) {
+      $('.tm-page-link').removeClass('active');
+      menuItem.addClass('active');
+    }
+
+    function showPage(page) {
+      $('.tm-page-content').hide();
+      page.show();
+    }
+
+    $(document).ready(function(){
+
+      /***************** Pages *****************/
+
+      initPage();
+
+      $('.tm-page-link').click(function(event) {
+        
+        if(window.innerWidth > 991) {
+          event.preventDefault();
+        }
+
+        highlightMenu($(event.currentTarget));
+        showPage($(event.currentTarget.hash));
+      });
+
+      
+      /***************** Tabs *******************/
+
+      $('.tm-tab-link').on('click', e => {
+        e.preventDefault(); 
+        openTab(e, $(e.target).data('id'));
+      });
+
+      $('.tm-tab-link.active').click(); // Open default tab
+
+
+      /************** Video background *********/
+
+      setVideoSize();
+
+      // Set video background size based on window size
+      let timeout;
+      window.onresize = function(){
+        clearTimeout(timeout);
+        timeout = setTimeout(setVideoSize, 100);
+      };
+
+      // Play/Pause button for video background      
+      const btn = $("#tm-video-control-button");
+
+      btn.on("click", function(e) {
+        const video = document.getElementById("tm-video");
+        $(this).removeClass();
+
+        if (video.paused) {
+          video.play();
+          $(this).addClass("fas fa-pause");
+        } else {
+          video.pause();
+          $(this).addClass("fas fa-play");
+        }
+      });
+    });
+      
+    //pencarian scrip
+    
+
+    let start = performance.now();
+    function searchMenu(textToSearch, searchInput) {
+    return textToSearch.toLowerCase().includes(searchInput.toLowerCase());
+  }
+
+  function searchFunction() {
+    var searchInput = document.getElementById('search').value.toLowerCase();
+    var menuItems = document.querySelectorAll('.tm-list-item');
+
+    menuItems.forEach(function (menuItem) {
+      var itemName = menuItem.querySelector('.tm-list-item-name').textContent.toLowerCase();
+      var isItemFound = searchMenu(itemName, searchInput);
+
+      menuItem.style.display = isItemFound ? 'block' : 'none';
+    });
+  }
+  let end = performance.now();
+  let time = end - start;
+  console.log(`Waktu eksekusi: ${time} ms`);
+
+  </script>
+</body>
+</html>
